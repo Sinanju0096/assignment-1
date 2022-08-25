@@ -1,0 +1,36 @@
+<html>
+ <head>
+  Job Registration
+ </head>
+ <body>
+  <form>
+   <label for="fullname"> Nama Lengkap :</label><br>
+   <input type="text" id="fullname" name="fullname"><br>
+   
+   <label for="email"> Email :</label><br>
+   <input type="email" id="email" email="email"><br>
+   
+   <label> Umur : </label><br>
+   <input type="number"><br>
+   
+   <label> Kelamin : </label><br>
+   <input type="radio" id="laki-laki" name="Kelamin" value  ="L"> 
+   
+   <label for="laki-laki"> L </label><br>
+   
+   <input type="radio" id="perempuan" name="Kelamin" value  ="P"> 
+   
+   <label for="perempuan"> P </label><br>
+   
+   <label> Pekerjaan :</label><br>
+   <input type="text"><br>
+   
+   <input type="submit" value= "Submit">
+   
+   <br>
+   
+   
+  </form>
+  
+ </body>
+</html>
